@@ -6,7 +6,7 @@ const fetchUser = async () => {
     },
   })
   const userData = await response.json()
-  // console.log('USER', userData)
+
   return userData[0]
 }
 
